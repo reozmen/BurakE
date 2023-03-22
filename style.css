@@ -1,0 +1,62 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "NewyorkTimes", serif;
+}
+
+body {
+  height: 100vh;
+}
+
+.navbar-brand {
+  font-size: 1.5rem;
+  font-weight: bold;
+}
+
+.logo-div {
+  width: 100%;
+  height: 50%;
+  text-align: center;
+  background-color: #0a0b10;
+}
+
+#navbar {
+  background-color: #0a0b10;
+}
+
+svg {
+  width: 2vw;
+  color: blue;
+}
+
+.anasayfa-icom {
+  display: inline-block;
+}
+
+.description {
+  text-align: justify;
+}
+
+.card-text {
+  min-height: 370px;
+  text-align: justify;
+}
+
+main {
+  background: rgb(0, 0, 0);
+  background: radial-gradient(
+    circle,
+    rgba(0, 0, 0, 0.28343837535014005) 0%,
+    rgba(255, 255, 255, 1) 96%
+  );
+}
+
+.card {
+  background: rgb(255, 255, 255);
+  background: linear-gradient(
+    0deg,
+    rgba(255, 255, 255, 1) 0%,
+    rgba(201, 198, 198, 1) 100%
+  );
+}
